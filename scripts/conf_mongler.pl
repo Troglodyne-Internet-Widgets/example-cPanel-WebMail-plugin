@@ -6,7 +6,7 @@ use Cpanel::DataStore;
 my $app = {
     url         => '/3rdparty/exampleWebMailApp/index.php',
     displayname => 'Example WebMail Application',
-    icon        => '/3rdparty/exampleWebMailApp/icon.svg',
+    icon        => '/3rdparty/exampleWebMailApp/icon.png',
 };
 
 Cpanel::DataStore::store_ref(
