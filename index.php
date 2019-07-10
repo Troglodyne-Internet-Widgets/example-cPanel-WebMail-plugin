@@ -3,7 +3,7 @@
     <head>
         <style>
             #logos { width: 2rem; }
-            .zippy { width: 7.5rem; font-weight: bold; display: inline-block; }
+            .zippy { font-weight: bold; }
         </style>
     </head>
     <body>
@@ -11,8 +11,6 @@
             <img id="logos" src="icon.png" />
             Example WebMail Application
         </h1>
-        <span class="zippy">User:</span>     <?php echo getenv('REMOTE_USER'); ?>
-        <br />
-        <span class="zippy">Password:</span> <?php echo getenv('REMOTE_PASSWORD'); ?>
+        <span class="zippy">User:</span> <?php echo getenv('REMOTE_USER'); ?>
     </body>
 </html>
