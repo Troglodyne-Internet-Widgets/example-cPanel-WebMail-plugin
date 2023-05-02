@@ -8,7 +8,7 @@
     $imap = imap_open( "{localhost:143/imap/notls}INBOX", $user, $pass );
     $num_msg = imap_num_msg($imap);
     $folders = imap_listmailbox($imap, "{localhost:143}", "*");
-    $errs = imap_errors($imap);
+    $errs = imap_errors();
     imap_close($imap);
 ?>
 <!DOCTYPE html>
